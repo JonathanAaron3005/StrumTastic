@@ -7,18 +7,96 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC1E8DEC2C00EB8700BC5AD6 /* ChordLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1E8DEB2C00EB8700BC5AD6 /* ChordLibrary.swift */; };
+		DC1E8DEE2C03439000BC5AD6 /* ChordComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1E8DED2C03439000BC5AD6 /* ChordComponent.swift */; };
 		DC88ED872BFB4A30005D5DCC /* testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC88ED862BFB4A30005D5DCC /* testApp.swift */; };
 		DC88ED892BFB4A30005D5DCC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC88ED882BFB4A30005D5DCC /* ContentView.swift */; };
 		DC88ED8B2BFB4A31005D5DCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC88ED8A2BFB4A31005D5DCC /* Assets.xcassets */; };
 		DC88ED8E2BFB4A31005D5DCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC88ED8D2BFB4A31005D5DCC /* Preview Assets.xcassets */; };
+		DCC647B32BFC906800E304BC /* GuitarWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DCC647B22BFC906800E304BC /* GuitarWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DCC647CA2BFCA4DC00E304BC /* ChordPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC647C92BFCA4DC00E304BC /* ChordPlayer.swift */; };
+		DCC647CE2BFCA95E00E304BC /* Metronome.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC647CD2BFCA95E00E304BC /* Metronome.swift */; };
+		DCC647D92C0097CA00E304BC /* ResultObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC88ED982BFB4A76005D5DCC /* ResultObserver.swift */; };
+		DCC647DA2C0097CC00E304BC /* Chord.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC647C72BFCA25A00E304BC /* Chord.swift */; };
+		DCC647DE2C009B9C00E304BC /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC647DD2C009B9C00E304BC /* CustomButton.swift */; };
+		DCC647E62C00A7C300E304BC /* LearnGuitarWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC647E52C00A7C300E304BC /* LearnGuitarWatchApp.swift */; };
+		DCC647E82C00A7C300E304BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC647E72C00A7C300E304BC /* ContentView.swift */; };
+		DCC647EA2C00A7C400E304BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC647E92C00A7C400E304BC /* Assets.xcassets */; };
+		DCC647ED2C00A7C400E304BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC647EC2C00A7C400E304BC /* Preview Assets.xcassets */; };
+		DCC647F02C00A7C400E304BC /* LearnGuitarWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DCC647E32C00A7C200E304BC /* LearnGuitarWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DCC647F82C00AC9F00E304BC /* CustomButtonWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC647F72C00AC9F00E304BC /* CustomButtonWatch.swift */; };
+		DCC647FC2C00C0F700E304BC /* GuitarChordClassifier3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DCC647FB2C00C0F700E304BC /* GuitarChordClassifier3.mlmodel */; };
+		DCC647FE2C00C33100E304BC /* success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DCC647FD2C00C33100E304BC /* success.mp3 */; };
+		DCC647FF2C00C36E00E304BC /* success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DCC647FD2C00C33100E304BC /* success.mp3 */; };
+		DCC648012C00CAFB00E304BC /* metronome.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DCC648002C00CAFB00E304BC /* metronome.mp3 */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DCC647B42BFC906800E304BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC88ED7B2BFB4A30005D5DCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCC647B12BFC906800E304BC;
+			remoteInfo = "GuitarWatch Watch App";
+		};
+		DCC647EE2C00A7C400E304BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC88ED7B2BFB4A30005D5DCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCC647E22C00A7C200E304BC;
+			remoteInfo = "LearnGuitarWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DCC647C22BFC906A00E304BC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DCC647B32BFC906800E304BC /* GuitarWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC647F42C00A7C400E304BC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DCC647F02C00A7C400E304BC /* LearnGuitarWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		DC88ED832BFB4A30005D5DCC /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1E8DEB2C00EB8700BC5AD6 /* ChordLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordLibrary.swift; sourceTree = "<group>"; };
+		DC1E8DED2C03439000BC5AD6 /* ChordComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordComponent.swift; sourceTree = "<group>"; };
+		DC88ED832BFB4A30005D5DCC /* LearnGuitar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnGuitar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC88ED862BFB4A30005D5DCC /* testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testApp.swift; sourceTree = "<group>"; };
 		DC88ED882BFB4A30005D5DCC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DC88ED8A2BFB4A31005D5DCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC88ED8D2BFB4A31005D5DCC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC88ED982BFB4A76005D5DCC /* ResultObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultObserver.swift; sourceTree = "<group>"; };
+		DCC647AD2BFC906800E304BC /* GuitarWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuitarWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC647B22BFC906800E304BC /* GuitarWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GuitarWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC647C72BFCA25A00E304BC /* Chord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chord.swift; sourceTree = "<group>"; };
+		DCC647C92BFCA4DC00E304BC /* ChordPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordPlayer.swift; sourceTree = "<group>"; };
+		DCC647CD2BFCA95E00E304BC /* Metronome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metronome.swift; sourceTree = "<group>"; };
+		DCC647DD2C009B9C00E304BC /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		DCC647E32C00A7C200E304BC /* LearnGuitarWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LearnGuitarWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC647E52C00A7C300E304BC /* LearnGuitarWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnGuitarWatchApp.swift; sourceTree = "<group>"; };
+		DCC647E72C00A7C300E304BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DCC647E92C00A7C400E304BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCC647EC2C00A7C400E304BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DCC647F72C00AC9F00E304BC /* CustomButtonWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonWatch.swift; sourceTree = "<group>"; };
+		DCC647FB2C00C0F700E304BC /* GuitarChordClassifier3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GuitarChordClassifier3.mlmodel; sourceTree = "<group>"; };
+		DCC647FD2C00C33100E304BC /* success.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = success.mp3; sourceTree = "<group>"; };
+		DCC648002C00CAFB00E304BC /* metronome.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = metronome.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,13 +107,67 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DCC647AF2BFC906800E304BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC647E02C00A7C200E304BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC1E8DE72C00E22C00BC5AD6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DCC647C72BFCA25A00E304BC /* Chord.swift */,
+				DC88ED982BFB4A76005D5DCC /* ResultObserver.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC1E8DE82C00E23A00BC5AD6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC1E8DEA2C00E2A400BC5AD6 /* Presenters */,
+				DC1E8DE92C00E26900BC5AD6 /* Component */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DC1E8DE92C00E26900BC5AD6 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				DCC647DD2C009B9C00E304BC /* CustomButton.swift */,
+				DC1E8DED2C03439000BC5AD6 /* ChordComponent.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		DC1E8DEA2C00E2A400BC5AD6 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				DC88ED862BFB4A30005D5DCC /* testApp.swift */,
+				DC88ED882BFB4A30005D5DCC /* ContentView.swift */,
+				DCC647C92BFCA4DC00E304BC /* ChordPlayer.swift */,
+				DCC647CD2BFCA95E00E304BC /* Metronome.swift */,
+				DC1E8DEB2C00EB8700BC5AD6 /* ChordLibrary.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
 		DC88ED7A2BFB4A30005D5DCC = {
 			isa = PBXGroup;
 			children = (
-				DC88ED852BFB4A30005D5DCC /* test */,
+				DC88ED852BFB4A30005D5DCC /* LearnGuitar */,
+				DCC647E42C00A7C300E304BC /* LearnGuitarWatch Watch App */,
 				DC88ED842BFB4A30005D5DCC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +175,26 @@
 		DC88ED842BFB4A30005D5DCC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DC88ED832BFB4A30005D5DCC /* test.app */,
+				DC88ED832BFB4A30005D5DCC /* LearnGuitar.app */,
+				DCC647AD2BFC906800E304BC /* GuitarWatch.app */,
+				DCC647B22BFC906800E304BC /* GuitarWatch Watch App.app */,
+				DCC647E32C00A7C200E304BC /* LearnGuitarWatch Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DC88ED852BFB4A30005D5DCC /* test */ = {
+		DC88ED852BFB4A30005D5DCC /* LearnGuitar */ = {
 			isa = PBXGroup;
 			children = (
-				DC88ED862BFB4A30005D5DCC /* testApp.swift */,
-				DC88ED882BFB4A30005D5DCC /* ContentView.swift */,
+				DCC647FB2C00C0F700E304BC /* GuitarChordClassifier3.mlmodel */,
+				DC1E8DE82C00E23A00BC5AD6 /* View */,
+				DC1E8DE72C00E22C00BC5AD6 /* Model */,
 				DC88ED8A2BFB4A31005D5DCC /* Assets.xcassets */,
+				DCC648002C00CAFB00E304BC /* metronome.mp3 */,
+				DCC647FD2C00C33100E304BC /* success.mp3 */,
 				DC88ED8C2BFB4A31005D5DCC /* Preview Content */,
 			);
-			path = test;
+			path = LearnGuitar;
 			sourceTree = "<group>";
 		};
 		DC88ED8C2BFB4A31005D5DCC /* Preview Content */ = {
@@ -67,24 +205,97 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		DCC647E42C00A7C300E304BC /* LearnGuitarWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				DCC647E52C00A7C300E304BC /* LearnGuitarWatchApp.swift */,
+				DCC647F72C00AC9F00E304BC /* CustomButtonWatch.swift */,
+				DCC647E72C00A7C300E304BC /* ContentView.swift */,
+				DCC647E92C00A7C400E304BC /* Assets.xcassets */,
+				DCC647EB2C00A7C400E304BC /* Preview Content */,
+			);
+			path = "LearnGuitarWatch Watch App";
+			sourceTree = "<group>";
+		};
+		DCC647EB2C00A7C400E304BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DCC647EC2C00A7C400E304BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DC88ED822BFB4A30005D5DCC /* test */ = {
+		DC88ED822BFB4A30005D5DCC /* LearnGuitar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC88ED912BFB4A31005D5DCC /* Build configuration list for PBXNativeTarget "test" */;
+			buildConfigurationList = DC88ED912BFB4A31005D5DCC /* Build configuration list for PBXNativeTarget "LearnGuitar" */;
 			buildPhases = (
 				DC88ED7F2BFB4A30005D5DCC /* Sources */,
 				DC88ED802BFB4A30005D5DCC /* Frameworks */,
 				DC88ED812BFB4A30005D5DCC /* Resources */,
+				DCC647F42C00A7C400E304BC /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCC647EF2C00A7C400E304BC /* PBXTargetDependency */,
+			);
+			name = LearnGuitar;
+			productName = test;
+			productReference = DC88ED832BFB4A30005D5DCC /* LearnGuitar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCC647AC2BFC906800E304BC /* GuitarWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC647C62BFC906A00E304BC /* Build configuration list for PBXNativeTarget "GuitarWatch" */;
+			buildPhases = (
+				DCC647AB2BFC906800E304BC /* Resources */,
+				DCC647C22BFC906A00E304BC /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCC647B52BFC906800E304BC /* PBXTargetDependency */,
+			);
+			name = GuitarWatch;
+			productName = GuitarWatch;
+			productReference = DCC647AD2BFC906800E304BC /* GuitarWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		DCC647B12BFC906800E304BC /* GuitarWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC647C52BFC906A00E304BC /* Build configuration list for PBXNativeTarget "GuitarWatch Watch App" */;
+			buildPhases = (
+				DCC647AE2BFC906800E304BC /* Sources */,
+				DCC647AF2BFC906800E304BC /* Frameworks */,
+				DCC647B02BFC906800E304BC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = test;
-			productName = test;
-			productReference = DC88ED832BFB4A30005D5DCC /* test.app */;
+			name = "GuitarWatch Watch App";
+			productName = "GuitarWatch Watch App";
+			productReference = DCC647B22BFC906800E304BC /* GuitarWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCC647E22C00A7C200E304BC /* LearnGuitarWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCC647F12C00A7C400E304BC /* Build configuration list for PBXNativeTarget "LearnGuitarWatch Watch App" */;
+			buildPhases = (
+				DCC647DF2C00A7C200E304BC /* Sources */,
+				DCC647E02C00A7C200E304BC /* Frameworks */,
+				DCC647E12C00A7C200E304BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LearnGuitarWatch Watch App";
+			productName = "LearnGuitarWatch Watch App";
+			productReference = DCC647E32C00A7C200E304BC /* LearnGuitarWatch Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,6 +309,15 @@
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					DC88ED822BFB4A30005D5DCC = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					DCC647AC2BFC906800E304BC = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					DCC647B12BFC906800E304BC = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					DCC647E22C00A7C200E304BC = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
@@ -115,7 +335,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DC88ED822BFB4A30005D5DCC /* test */,
+				DC88ED822BFB4A30005D5DCC /* LearnGuitar */,
+				DCC647AC2BFC906800E304BC /* GuitarWatch */,
+				DCC647B12BFC906800E304BC /* GuitarWatch Watch App */,
+				DCC647E22C00A7C200E304BC /* LearnGuitarWatch Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -126,7 +349,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC88ED8E2BFB4A31005D5DCC /* Preview Assets.xcassets in Resources */,
+				DCC648012C00CAFB00E304BC /* metronome.mp3 in Resources */,
+				DCC647FF2C00C36E00E304BC /* success.mp3 in Resources */,
 				DC88ED8B2BFB4A31005D5DCC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC647AB2BFC906800E304BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC647B02BFC906800E304BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC647E12C00A7C200E304BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC647ED2C00A7C400E304BC /* Preview Assets.xcassets in Resources */,
+				DCC647FE2C00C33100E304BC /* success.mp3 in Resources */,
+				DCC647EA2C00A7C400E304BC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,12 +386,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCC647D92C0097CA00E304BC /* ResultObserver.swift in Sources */,
 				DC88ED892BFB4A30005D5DCC /* ContentView.swift in Sources */,
+				DCC647CE2BFCA95E00E304BC /* Metronome.swift in Sources */,
+				DCC647DE2C009B9C00E304BC /* CustomButton.swift in Sources */,
+				DC1E8DEC2C00EB8700BC5AD6 /* ChordLibrary.swift in Sources */,
 				DC88ED872BFB4A30005D5DCC /* testApp.swift in Sources */,
+				DCC647FC2C00C0F700E304BC /* GuitarChordClassifier3.mlmodel in Sources */,
+				DCC647CA2BFCA4DC00E304BC /* ChordPlayer.swift in Sources */,
+				DC1E8DEE2C03439000BC5AD6 /* ChordComponent.swift in Sources */,
+				DCC647DA2C0097CC00E304BC /* Chord.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC647AE2BFC906800E304BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCC647DF2C00A7C200E304BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCC647E82C00A7C300E304BC /* ContentView.swift in Sources */,
+				DCC647E62C00A7C300E304BC /* LearnGuitarWatchApp.swift in Sources */,
+				DCC647F82C00AC9F00E304BC /* CustomButtonWatch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCC647B52BFC906800E304BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCC647B12BFC906800E304BC /* GuitarWatch Watch App */;
+			targetProxy = DCC647B42BFC906800E304BC /* PBXContainerItemProxy */;
+		};
+		DCC647EF2C00A7C400E304BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCC647E22C00A7C200E304BC /* LearnGuitarWatch Watch App */;
+			targetProxy = DCC647EE2C00A7C400E304BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		DC88ED8F2BFB4A31005D5DCC /* Debug */ = {
@@ -267,19 +554,22 @@
 		DC88ED922BFB4A31005D5DCC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LearnGuitar/Preview Content\"";
 				DEVELOPMENT_TEAM = Z42WC948D7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses the microphone to capture sound";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,19 +586,22 @@
 		DC88ED932BFB4A31005D5DCC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LearnGuitar/Preview Content\"";
 				DEVELOPMENT_TEAM = Z42WC948D7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses the microphone to capture sound";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,6 +612,154 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCC647C02BFC906A00E304BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z42WC948D7;
+				INFOPLIST_KEY_CFBundleDisplayName = GuitarWatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jonathan.GuitarWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DCC647C12BFC906A00E304BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z42WC948D7;
+				INFOPLIST_KEY_CFBundleDisplayName = GuitarWatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jonathan.GuitarWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DCC647C32BFC906A00E304BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "GuitarWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = Z42WC948D7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GuitarWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jonathan.GuitarWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		DCC647C42BFC906A00E304BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "GuitarWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = Z42WC948D7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GuitarWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jonathan.GuitarWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Release;
+		};
+		DCC647F22C00A7C400E304BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LearnGuitarWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = Z42WC948D7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = LearnGuitarWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = jonathan.test;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jonathan.test.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		DCC647F32C00A7C400E304BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LearnGuitarWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = Z42WC948D7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = LearnGuitarWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = jonathan.test;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jonathan.test.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
 			};
 			name = Release;
 		};
@@ -334,11 +775,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC88ED912BFB4A31005D5DCC /* Build configuration list for PBXNativeTarget "test" */ = {
+		DC88ED912BFB4A31005D5DCC /* Build configuration list for PBXNativeTarget "LearnGuitar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DC88ED922BFB4A31005D5DCC /* Debug */,
 				DC88ED932BFB4A31005D5DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC647C52BFC906A00E304BC /* Build configuration list for PBXNativeTarget "GuitarWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC647C32BFC906A00E304BC /* Debug */,
+				DCC647C42BFC906A00E304BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC647C62BFC906A00E304BC /* Build configuration list for PBXNativeTarget "GuitarWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC647C02BFC906A00E304BC /* Debug */,
+				DCC647C12BFC906A00E304BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCC647F12C00A7C400E304BC /* Build configuration list for PBXNativeTarget "LearnGuitarWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC647F22C00A7C400E304BC /* Debug */,
+				DCC647F32C00A7C400E304BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
